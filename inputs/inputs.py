@@ -10,13 +10,15 @@ frases = [
     "Ótimo custo-benefício",
     "Demorou demais para chegar!!",
     "Chegou quebrado por que o entregador jogou pelo portão",
-    "Agora só compro produto dessa marca"
+    "Agora só compro produto dessa marca",
+    "Vou comprar novamente",
+    "Achei horrível, me arrependi de ter comprado!!"
     
 ]
 
 # 1 = positivo 0 = negativo
 
-rotulos = [1, 1, 0, 0, 1]
+rotulos = [1, 1, 0, 0, 1, 1, 0]
 
 vetorizador = CountVectorizer()
 x = vetorizador.fit_transform(frases)
