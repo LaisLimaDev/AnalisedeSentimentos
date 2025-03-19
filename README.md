@@ -1,5 +1,6 @@
 # AnalisedeSentimentos
-Análise de sentimentos utilizando python
 
 
-Análise simples de sentimentos utilizando sci-kit learn
+Análise simples de  de avaliação de produtos utilizando sci-kit learn
+
+Projeto em desenvolvimento
