@@ -27,3 +27,17 @@ modelo = MultinomialNB()
 modelo.fit (x, rotulos)
 
 
+novas_frases = [
+    "Adorei, superou todas as minhas expectativas",
+    "O produto é horrível",
+    "Muito bom!!"
+]
+
+X_teste = vetorizador.transform(novas_frases)
+previsoes = modelo.predict(X_teste)
+
+for i, frase in enumerate(novas_frases):
+    if previsoes[i] == 1:
+        print(frase, "é uma frase positiva")
+    else:
+        print(frase, "é uma frase negativa")
